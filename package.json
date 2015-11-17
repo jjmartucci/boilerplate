@@ -1,0 +1,40 @@
+{
+  "name": "jmartucci-boilerplate",
+  "version": "0.1",
+  "author": {
+    "name": "Joe Martucci"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "gulp serve",
+    "build": "NODE_ENV=production gulp build"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.0.3",
+    "browser-sync": "2.7.5",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.0",
+    "gulp-eslint": "^1.1.0",
+    "gulp-header": "^1.7.1",
+    "gulp-if": "^2.0.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-modernizr": "0.0.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-postcss": "^6.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.4.2",
+    "run-sequence": "^1.1.4",
+    "autoprefixer": "6.0.3",
+    "node-sass": "3.3.3",
+  },
+  "dependencies": {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jjmartucci/boilerplate"
+  }
+}

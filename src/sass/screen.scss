@@ -1,0 +1,17 @@
+/* Base */
+/**
+ * Variables, normalize, default typography, etc.
+ */
+@import 'base/variables';
+@import 'base/normalize';
+
+/* Components */
+/**
+ * Components are the markup for almost everything on the page. The should use BEM syntax.
+ */
+
+/* Structures */
+/**
+ * Structures are made up of components. They typically take up the entire width of the screen.
+ * Styles for markup of a site header or site footer belong here.
+ */
