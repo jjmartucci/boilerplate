@@ -1,2 +1,11 @@
+# IDE files
 .idea/
+
+
 node_modules/
+.vagrant/
+
+# Ignore generated files
+public/css
+public/images
+public/js

@@ -10,5 +10,8 @@ Vagrant.configure("2") do |config|
     
     # Optional NFS. Make sure to remove other synced_folder line too
     #config.vm.synced_folder ".", "/var/www", :nfs => { :mount_options => ["dmode=777","fmode=666"] }
-
+	config.vm.provision "shell", inline: <<-SHELL
+		sudo apt-get install php5-xdebug
+		sudo service apache2 restart
+	SHELL
 end

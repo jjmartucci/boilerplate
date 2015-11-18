@@ -1,8 +1,8 @@
 module.exports = function (gulp, plugins, config) {
   return function () {
-    gulp.src(config.deploy + 'static/css/*.css')
+    gulp.src(config.deploy + 'css/*.css')
       .pipe(plugins.postcss(config.processors))
-      .pipe(gulp.dest(config.deploy + 'static/css/'))
+      .pipe(gulp.dest(config.deploy + 'css/'))
       .pipe(plugins.browserSync.stream());
   }
 }
