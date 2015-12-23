@@ -4,6 +4,11 @@ Code I use for getting a site off the ground.
 Includes [Scotch Box](https://box.scotch.io/) as a Vagrant VM with xdebug added. Just run:
 `vagrant up`
 
+Includes some mixins I use on a regular basis:
+
+- `clearfix` 
+
+
 Includes gulp tasks to:
 
 - compile Sass

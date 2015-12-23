@@ -1,0 +1,14 @@
+@mixin columnList($columns){
+  column-count: $columns;
+
+  ul{
+    display: block;
+  }
+
+  li{
+    break-inside: avoid-column;
+    -webkit-column-break-inside:avoid;
+    -moz-column-break-inside:avoid;
+    column-break-inside:avoid;
+  }
+}
