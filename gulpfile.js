@@ -35,7 +35,6 @@ var config = {
     // options for sass build
     sass: {
         outputStyle: (process.env.NODE_ENV === 'production') ? 'compressed' : 'nested',
-        includePaths: require('node-bourbon').with(require('node-neat').with('node-normalize-scss'))
     },
 
     // options for uglify
