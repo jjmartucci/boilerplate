@@ -1,3 +1,12 @@
+$base-font-size: 16px !default;
+$base-font-family: Arial !default;
+$base-line-height: 1.5 !default;
+$base-font-color: #222222 !default;
+
+$header-line-height: 1.5 !default;
+
+$body-background: #FAFFFA !default;
+
 *{
   box-sizing: border-box;
 }
@@ -75,6 +84,13 @@ button {
 :focus {
   outline: 0;
 }
+
+// Get rid of iOS style submit buttons
+input[type="submit"]{
+  -webkit-appearance: none;
+  appearance: none;
+}
+
 img {
   max-width: 100%;
   height: auto;

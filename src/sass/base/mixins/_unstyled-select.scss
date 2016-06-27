@@ -1,0 +1,17 @@
+/*
+ * Unstyled Select
+ *
+ * Apply to a select element to remove all native chrome.
+ */
+
+
+@mixin unstyledSelect(){
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  &::-ms-expand{
+    display: none;
+
+  }
+}
